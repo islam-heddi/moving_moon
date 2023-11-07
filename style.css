@@ -1,0 +1,24 @@
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(./maple-lake-woods-dark-sky-tom-hahn-nov21.jpg);
+    overflow-x: hidden;
+
+}
+
+img{
+    position: relative;
+    padding: 10px;
+    margin: 20px;
+    animation: move 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    from { left: -200px; }
+    to {
+        left: 1600px;
+    }
+}
